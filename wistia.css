@@ -1,0 +1,321 @@
+header{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(255, 255, 255) ;
+    margin-top: 0%;
+    border:1px solid black;
+   /* display: flex;
+   /* flex-direction: row;
+    align-items: flex-end;µ*/
+    justify-content: space-between;
+   
+
+    
+    
+}
+
+.barre-menu{
+    display: flex;
+    justify-content: space-between;
+   list-style-type: none;
+
+   
+
+}
+.btn2{
+    background-color: gray;
+    color: black;
+    font-size: 33px;
+}
+.btn-log{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+.btn-get{
+    background-color: #3EA9F5;
+    color: black;
+    font-size: 20px;
+    
+}
+.btn-sec2{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    width: 110px;
+    height: 55px;
+    font-style: italic;
+}
+
+.par1{
+   
+Font-size: 56px;
+
+Font-weight: 400;
+
+Line-height: 44px;
+color: white;
+display: flex;
+flex-wrap: wrap;
+
+}
+.par2{
+       
+Font-size: 56px;
+
+Font-weight: 400;
+
+Line-height: 44px;
+color:black;
+display: flex;
+
+}
+.btn-droite
+{
+    display: flex;
+    justify-content: space-around;
+    width:200px ;
+
+   
+    
+}
+
+  
+.section1{
+    height: 620px;
+    width: 100%;
+    background-color: rgb(202, 149, 164) ;
+    display: flex;
+    justify-content: left;
+    padding-left: 90px;
+    padding-top: 214px;
+}
+.section2{
+    height: 420px;
+    width: 100%;
+    display: flex;
+}
+.meme-ligne{
+    display: flex;
+}
+
+.tit-sect2{
+
+Font-size: 24px;
+
+Font-weight: 700;
+
+Line-height: 30px;
+color: white;
+
+}
+.p-sect2{
+    Font-size: 28px;
+
+Font-weight: 400;
+
+Line-height: 30px;
+}
+.p-sect3{
+    Font-size: 17px;
+
+Font-weight: 500;
+
+Line-height: 20.4px;
+padding: 5px;
+padding-left: 5%;
+width: 150PX;
+}
+.section2gauche{
+    background-color: #FED24A;
+}
+.section2center{
+    background-color: #51C29F;
+}
+.section2droite{
+    background-color: #3EA9F5;
+}
+
+.section3{
+  /*  height: 1048px;*/
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.section3haut{
+    display: flex;
+    justify-content: space-between;
+    
+    padding-top: 134px;
+    padding-bottom: 134px;
+}
+.section3bas{
+    display: flex;
+    justify-content: space-around;
+}
+.section3bas2{
+height: 70px;
+width: 100%;
+text-align: center;
+background-color: rgb(239, 239, 239);
+color: gray;
+}
+
+.img3{
+    text-align: left;
+}
+.tit-sect3{
+    Font-size: 18px;
+
+Font-weight: 700;
+
+Line-height: 21.6px;
+}
+.section4{
+    height: 530px;
+    width: 100%;
+    background-color: rgb(54, 57, 69);
+    display: flex;
+    position: relative;
+   
+}
+footer{
+    position: absolute;
+width: 100%;
+    background-color: rgb(54, 57, 69);
+    text-align: center;
+    color: cornsilk;
+}
+.p-sect4
+{
+    Font-size: 30px;
+
+Font-weight: 400;
+
+Line-height: 39px;
+justify-content: space-between;
+color: cornsilk;
+
+}
+.fa-stream{
+    color: aqua; 
+}
+.fa-caret-square-up{
+    color: darkkhaki;
+}
+.fa-square{
+    color: cyan;
+}
+.fa-circle{
+    color: crimson;
+}
+.fa-chart-line{
+    color: aqua;
+    height: 50px;
+    width: 50px;
+    font-size: 50px;
+}
+.fa-laptop{
+    color: pink;
+    height: 50px;
+    width: 50px;
+    font-size: 50px;
+
+}
+.fa-align-left{
+    color: yellow;
+    font-size: 50px;
+}
+.sec4-droite{
+    display: flex;
+    justify-content: space-between;
+}
+.list1 UL{
+    list-style-type: none;
+    color: cornsilk;
+
+}
+.mkg2:hover{
+    color: turquoise;
+    cursor: pointer;
+
+}
+.wistia{
+    display: flex;
+}
+
+li.soap:hover{
+    color: red;
+    cursor: pointer;
+
+}
+li.learn:hover{
+    color: green;
+    cursor: pointer;
+
+}
+li.video:hover{
+    color: blue;
+    cursor: pointer;
+
+}
+.list1 :hover{
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn-log :hover{
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn-get :hover{
+    font-size: 20px;
+    cursor: pointer;
+}
+.p-foot{
+    font-size: 20px;
+}
+.a-foot{
+    color: cornflowerblue;
+}
+.wistia-for-mkg{
+   
+position: absolute;
+    top: 13%;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+    position: fixed;
+
+}
+ul.analyze:hover{
+    cursor: pointer;
+    font-size: 15px;
+}
+ul.featurs:hover{
+    cursor: pointer;
+    font-size: 15px;
+}
+ul.convert:hover{
+    cursor: pointer;
+    font-size: 15px;
+}
+ul.costomize:hover{
+    cursor: pointer;
+    font-size: 15px;
+}
+ul.wistia-for-mkg{
+    margin-left: 0%;
+    margin-left: -16%
+  
+}
+.mkg:hover .wistia-for-mkg{
+    display: flex;
+
+}
+
+
+
+li{
+    list-style-type: none;
+}
